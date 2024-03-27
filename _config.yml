@@ -1,7 +1,7 @@
 title: Your awesome title
 name: GitHub User
 email: your-email@domain.com
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
@@ -18,7 +18,7 @@ description: >
 # As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
 # If you want to use the latest Minima version on GitHub Pages, use the following setting and 
 # add a line comment on "theme: minima" above.
-#remote_theme: jekyll/minima
+remote_theme: jekyll/minima
 
 plugins:
   - jekyll-feed
@@ -27,9 +27,7 @@ plugins:
 # Theme-specific settings
 
 # If you want to link only specific pages in your header, use this and add the path to the pages
-# in order as they should show up.
-header_pages:
-  README.md
+# in order as they should show up
 
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
